@@ -1,0 +1,19 @@
+.pagination{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  .prev, .next, .number{
+    padding: 12px;
+  }
+  .number{
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    margin: 0 5px;
+    &.active{
+      color: #ffffff;
+      background-color: #C83A2F;
+      border-radius: 50%;
+    }
+  }
+}
